@@ -1,1 +1,5 @@
 # 4th-Down-Conversion
+
+The possible moves on 4th down are to either go for it, kick a field goal or punt it. In this project we are going to explore field goals and see how field goal distance, roof status, and wind speed affect predicting the field goal result. In order to determine this, the 2023 football season (September 7, 2023 - January 7, 2024) will be leveraged. Ideally this model would be able to tell us whether to kick a field goal or punt the ball.
+
+Logistic regression and random forest were the two model types explored in this project, with test/train/validation sets. Cross validation was leveraged to determine the best values for n_estimators, min_samples_leaf, and max_depth for the random forest.  In order to evaluate the model types, log loss, calibration curves, and a scatter plot of predicted and empirical values were examined. 
